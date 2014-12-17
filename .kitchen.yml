@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: debian-7.7
+    driver_config:
+      box: opscode-debian-7.7
+      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-7.7_chef-provisionerless.box
+
+suites:
+  - name: default
+    run_list:
+      - "role[base]"
