@@ -1,0 +1,9 @@
+{
+  "id"  : "sgoings",
+  "homesick_castles"  : [
+    { "name"    : "bashrc",
+      "source"  : "git@github.com:sgoings/bashrc.git",
+      "action"  : "update"
+    }
+  ]
+}
