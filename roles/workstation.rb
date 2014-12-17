@@ -5,7 +5,8 @@ run_list(
   "role[base]",
   "recipe[chef-dk]",
   "recipe[vagrant]",
-  "recipe[sublime-text::default]"
+  "recipe[sublime-text::default]",
+  "recipe[virtualbox]"
 )
 
 default_attributes(
